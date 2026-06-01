@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	manor "github.com/monchickey/manor-go"
+	manor "github.com/monchickey/manor-go/v2"
 )
 
 // go test -v data_process_test.go

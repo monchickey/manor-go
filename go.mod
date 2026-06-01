@@ -1,4 +1,4 @@
-module github.com/monchickey/manor-go
+module github.com/monchickey/manor-go/v2
 
 go 1.25
 

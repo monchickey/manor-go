@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	manor "github.com/monchickey/manor-go"
+	manor "github.com/monchickey/manor-go/v2"
 )
 
 type Coordinate manor.Coordinate

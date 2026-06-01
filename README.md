@@ -10,13 +10,13 @@ import (
     "fmt"
     "time"
 
-    manor "github.com/monchickey/manor-go"
+    manor "github.com/monchickey/manor-go/v2"
 )
 
 type Coordinate manor.Coordinate
 
 func PolygonContain(pointSet []Coordinate, p Coordinate) (int, error) {
-    newPointSet := make([]monchickey.Coordinate, len(pointSet))
+    newPointSet := make([]manor.Coordinate, len(pointSet))
     for i, c := range pointSet {
         newPointSet[i] = manor.Coordinate(c)
     }

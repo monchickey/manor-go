@@ -6,7 +6,7 @@ import (
 
 	"time"
 
-	manor "github.com/monchickey/manor-go"
+	manor "github.com/monchickey/manor-go/v2"
 )
 
 // go test -v file_util_test.go

@@ -6,7 +6,7 @@ import (
 
 	"encoding/json"
 
-	manor "github.com/monchickey/manor-go"
+	manor "github.com/monchickey/manor-go/v2"
 )
 
 // go test -v polygons_point_relation_test.go
