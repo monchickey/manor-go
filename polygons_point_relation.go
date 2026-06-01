@@ -1,4 +1,4 @@
-package monchickey
+package manor
 
 import (
 	"errors"

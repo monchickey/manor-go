@@ -1,8 +1,8 @@
-module github.com/zengzhiying/gomonchickey
+module github.com/monchickey/manor-go
 
-go 1.13
+go 1.25
 
 require (
 	github.com/OneOfOne/xxhash v1.2.6
-	gopkg.in/yaml.v2 v2.2.4
+	github.com/goccy/go-yaml v1.19.2
 )

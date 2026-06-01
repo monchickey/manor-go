@@ -1,29 +1,29 @@
-package monchickey_test
+package manor_test
 
 import (
-    "fmt"
-    "testing"
+	"fmt"
+	"testing"
 
-    "github.com/zengzhiying/gomonchickey"
+	manor "github.com/monchickey/manor-go"
 )
 
 // go test -v config_util_test.go
 
 type Config struct {
-    A struct {
-        T1 int
-        T2 string
-    }
+	A struct {
+		T1 int
+		T2 string
+	}
 }
 
 // go test -v config_util_test.go -test.run TestGetYamlConfig
 func TestGetYamlConfig(t *testing.T) {
-    config := Config{}
-    err := monchickey.GetYamlConfig("resources/config.yaml", &config)
-    if err != nil {
-        fmt.Println(err)
-    } else {
-        fmt.Println(config.A.T1, config.A.T2)
-        fmt.Println(config.A.T1 == 3, config.A.T2 == "test")
-    }
+	config := Config{}
+	err := manor.GetYamlConfig("resources/config.yaml", &config)
+	if err != nil {
+		fmt.Println(err)
+	} else {
+		fmt.Println(config.A.T1, config.A.T2)
+		fmt.Println(config.A.T1 == 3, config.A.T2 == "test")
+	}
 }
